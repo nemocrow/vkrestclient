@@ -37,7 +37,7 @@ namespace Tests
         [TestMethod]
         public async void TestSendReceiveDeleteVerify()
         {
-            var messageText = string.Format("VkMessenger test message at {0}", DateTime.Now);
+            var messageText = string.Format("TestSendReceiveDeleteVerify test message at {0}", DateTime.Now);
 
             //// 1. send the message to self
             var sendResponse = 
@@ -107,7 +107,7 @@ namespace Tests
         public async void TestRestore()
         {
             var user = TestCommon.MainTestUser;
-            var message = string.Format("StartContactsSync message at {0}", DateTime.Now);
+            var message = string.Format("TestRestore message at {0}", DateTime.Now);
 
             // create a message
             var r = await Messages.Send(user.UserId, null, message).ExecuteIn(user.Session);

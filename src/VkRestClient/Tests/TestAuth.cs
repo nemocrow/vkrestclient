@@ -111,7 +111,7 @@ namespace Tests
         [TestMethod]
         public async void TestCheckPhoneUsedByAnotherUser()
         {
-            var response = await Auth.CheckPhone("+380633347764", TestCommon.AppId, TestCommon.AppKey)
+            var response = await Auth.CheckPhone("+380623247264", TestCommon.AppId, TestCommon.AppKey)
                 .ExecuteFree();
 
             Assert.IsTrue(response.IsApiError);
