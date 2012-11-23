@@ -220,7 +220,7 @@ namespace VkApi.Methods
                         {"type", isAChatMessage},
                         {"lat", latitude},
                         {"long", longitude},
-                        {"guid", string.Format("huypizda{0}", DateTime.Now.ToFileTimeUtc())}
+                        {"guid", string.Format("secret{0}", DateTime.Now.ToFileTimeUtc())}
                     });
         }
 

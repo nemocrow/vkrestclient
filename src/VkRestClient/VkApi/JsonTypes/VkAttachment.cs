@@ -30,7 +30,6 @@ namespace VkApi.JsonTypes
         [JsonProperty("document")]
         public VkDocumentAttachment Document { get; set; }
 
-        // govno
         public string OwnerId
         {
             get
@@ -42,7 +41,6 @@ namespace VkApi.JsonTypes
             }
         }
 
-        // kal
         public string MediaId
         {
             get

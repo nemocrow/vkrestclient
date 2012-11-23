@@ -63,7 +63,7 @@ namespace VkApi.Base
         RuntimeError = 13,
         //14 Captcha is needed
         CaptchaRequired = 14,
-        //15 Access denied: you have no messages from this user, 15 Access denied: no access to this chat. Pidars.
+        //15 Access denied: you have no messages from this user, 15 Access denied: no access to this chat.
         AccessDenied = 15,
         //20 Permission to perform this action is denied for non-standalone applications.
         PermissionDeniedForNonStandalone = 20,
