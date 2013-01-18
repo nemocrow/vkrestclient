@@ -30,7 +30,7 @@ namespace VkApi.Methods
         {
             // Пример запроса авторизации:
             // https://oauth.vk.com/token?grant_type=password&client_id=1914441&...=***&username=***&password=***
-            // @NOTE: пиздеж, правильный пример запроса: https://api.vk.com/oauth/token?grant_type=password&client_id=1914441&...=***&username=***&password=***
+            // @NOTE: правильный пример запроса: https://api.vk.com/oauth/token?grant_type=password&client_id=1914441&...=***&username=***&password=***
             // 
             // Пример ответа:
             // {"access_token":"9d77c727986d7668986d7668049870402D1986d986d76684bbc9b1bf8488de9", "expires_in":0,"user_id":85635407}
